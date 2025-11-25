@@ -44,7 +44,7 @@ if st.button("Analyze & Optimize", type="primary"):
             llm = ChatGroq(
                 temperature=0.0,
                 groq_api_key=api_key,
-                model_name="llama3-70b-8192"
+                model_name="llama-3.1-8b-instant"
             )
 
             prompt = get_prompt_template()
